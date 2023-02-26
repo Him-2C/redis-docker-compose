@@ -1,0 +1,8 @@
+volumes:
+  data:
+
+services:
+  redis:
+    image: redis/redis-stack:latest
+    ports:
+      - 5100:6379
